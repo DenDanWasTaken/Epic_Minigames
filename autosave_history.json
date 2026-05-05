@@ -1,0 +1,578 @@
+[
+    {
+        "user": "Player",
+        "game": "DragDrop",
+        "difficulty": "Easy",
+        "time": "16.65s",
+        "score": 200,
+        "date": "2026-05-02 16:48:19"
+    },
+    {
+        "user": "Player",
+        "game": "DragDrop",
+        "difficulty": "Custom",
+        "time": "6.61s",
+        "score": 10,
+        "date": "2026-05-02 17:43:50"
+    },
+    {
+        "user": "Player",
+        "game": "DragDrop",
+        "difficulty": "Custom",
+        "time": "17.12s",
+        "score": 150,
+        "date": "2026-05-02 17:44:45"
+    },
+    {
+        "user": "Player",
+        "game": "DragDrop",
+        "difficulty": "Custom",
+        "time": "4.05s",
+        "score": 0,
+        "date": "2026-05-02 17:46:06"
+    },
+    {
+        "user": "ass",
+        "game": "Memory",
+        "difficulty": "Hard",
+        "time": "35.53s",
+        "score": 0,
+        "date": "2026-05-02 17:47:10"
+    },
+    {
+        "user": "Anonymous",
+        "game": "DragDrop",
+        "difficulty": "Custom",
+        "time": "3.21s",
+        "score": 0,
+        "date": "2026-05-02 17:48:07"
+    },
+    {
+        "user": "Player",
+        "game": "DragDrop",
+        "difficulty": "Easy",
+        "time": "19.82s",
+        "score": 200,
+        "date": "2026-05-02 18:03:53"
+    },
+    {
+        "user": "Anonymous",
+        "game": "AimTrainer",
+        "difficulty": "Hard",
+        "time": "7.96s",
+        "score": 0,
+        "date": "2026-05-02 18:04:07"
+    },
+    {
+        "user": "Player",
+        "game": "Memory",
+        "difficulty": "Hard",
+        "time": "10.32s",
+        "score": 23,
+        "date": "2026-05-02 18:09:53"
+    },
+    {
+        "user": "Player",
+        "game": "AimTrainer",
+        "difficulty": "Hard",
+        "time": "12.09s",
+        "score": 9,
+        "date": "2026-05-02 18:10:17"
+    },
+    {
+        "user": "Anonymous",
+        "game": "AimTrainer",
+        "difficulty": "Medium",
+        "time": "22.01s",
+        "score": 27,
+        "date": "2026-05-02 18:54:50"
+    },
+    {
+        "user": "Player",
+        "game": "AimTrainer",
+        "difficulty": "Easy",
+        "time": "30.22s",
+        "score": 50,
+        "date": "2026-05-02 18:55:39"
+    },
+    {
+        "user": "Anonymous",
+        "game": "AimTrainer",
+        "difficulty": "Hard",
+        "time": "10.19s",
+        "score": 5,
+        "date": "2026-05-02 18:56:44"
+    },
+    {
+        "user": "Player",
+        "game": "AimTrainer",
+        "difficulty": "Easy",
+        "time": "2.19s",
+        "score": 0,
+        "date": "2026-05-02 18:57:14"
+    },
+    {
+        "user": "Player",
+        "game": "AimTrainer",
+        "difficulty": "Custom",
+        "time": "2.88s",
+        "score": 0,
+        "date": "2026-05-02 18:57:20"
+    },
+    {
+        "user": "Anonymous",
+        "game": "AimTrainer",
+        "difficulty": "Hard",
+        "time": "10.22s",
+        "score": 0,
+        "date": "2026-05-02 18:59:11"
+    },
+    {
+        "user": "Player",
+        "game": "DragDrop",
+        "difficulty": "Easy",
+        "time": "15.57s",
+        "score": 200,
+        "date": "2026-05-04 18:35:17"
+    },
+    {
+        "user": "g",
+        "game": "DragDrop",
+        "difficulty": "Easy",
+        "time": "3.51s",
+        "score": 10,
+        "date": "2026-05-04 19:41:48"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Memory",
+        "difficulty": "Medium",
+        "time": "6.4s",
+        "score": 19,
+        "date": "2026-05-04 20:24:27"
+    },
+    {
+        "user": "Player",
+        "game": "DragDrop",
+        "difficulty": "Easy",
+        "time": "3.07s",
+        "score": 10,
+        "date": "2026-05-04 20:34:40"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Memory",
+        "difficulty": "Easy",
+        "time": "3.58s",
+        "score": 13,
+        "date": "2026-05-04 20:35:35"
+    },
+    {
+        "user": "Player",
+        "game": "DragDrop",
+        "difficulty": "Easy",
+        "time": "18.23s",
+        "score": 200,
+        "date": "2026-05-04 21:31:56"
+    },
+    {
+        "user": "Player",
+        "game": "DragDrop",
+        "difficulty": "Custom",
+        "time": "19.47s",
+        "score": 140,
+        "date": "2026-05-04 21:32:30"
+    },
+    {
+        "user": "Player",
+        "game": "DragDrop",
+        "difficulty": "Easy",
+        "time": "30.58s",
+        "score": 75,
+        "date": "2026-05-04 21:35:24"
+    },
+    {
+        "user": "Anonymous",
+        "game": "DragDrop",
+        "difficulty": "Easy",
+        "time": "30.56s",
+        "score": 75,
+        "date": "2026-05-04 21:35:26"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Easy",
+        "time": "30.63s",
+        "score": 2,
+        "date": "2026-05-04 21:47:56"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Easy",
+        "time": "30.6s",
+        "score": 2,
+        "date": "2026-05-04 21:47:57"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Easy",
+        "time": "15.06s",
+        "score": 13,
+        "date": "2026-05-04 21:48:24"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "10.56s",
+        "score": 60,
+        "date": "2026-05-04 21:49:39"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "10.54s",
+        "score": 60,
+        "date": "2026-05-04 21:49:42"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Easy",
+        "time": "2.53s",
+        "score": -23,
+        "date": "2026-05-04 21:50:23"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Easy",
+        "time": "3.22s",
+        "score": -21,
+        "date": "2026-05-04 21:50:58"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "10.58s",
+        "score": 24,
+        "date": "2026-05-04 21:52:02"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "10.56s",
+        "score": 24,
+        "date": "2026-05-04 21:52:02"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Easy",
+        "time": "2.1s",
+        "score": -24,
+        "date": "2026-05-04 21:52:12"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "10.55s",
+        "score": 106,
+        "date": "2026-05-04 21:53:36"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "10.52s",
+        "score": 106,
+        "date": "2026-05-04 21:53:36"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Easy",
+        "time": "5.05s",
+        "score": 52,
+        "date": "2026-05-04 21:53:51"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "10.54s",
+        "score": -48,
+        "date": "2026-05-04 21:54:12"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "10.52s",
+        "score": -48,
+        "date": "2026-05-04 21:54:13"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "10.6s",
+        "score": 106,
+        "date": "2026-05-04 22:08:56"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "5.15s",
+        "score": 0,
+        "date": "2026-05-04 22:09:19"
+    },
+    {
+        "user": "Player",
+        "game": "Typing",
+        "difficulty": "Easy",
+        "time": "2.91s",
+        "score": 0,
+        "date": "2026-05-04 22:11:21"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "10.52s",
+        "score": 0,
+        "date": "2026-05-04 22:11:37"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "4.34s",
+        "score": 0,
+        "date": "2026-05-04 22:14:06"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "10.74s",
+        "score": 0,
+        "date": "2026-05-04 22:14:21"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "7.88s",
+        "score": -69,
+        "date": "2026-05-04 22:14:40"
+    },
+    {
+        "user": "yay",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "10.66s",
+        "score": 80,
+        "date": "2026-05-04 22:40:50"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "10.57s",
+        "score": -15,
+        "date": "2026-05-04 22:41:08"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "10.53s",
+        "score": -44,
+        "date": "2026-05-04 22:41:58"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "12.02s",
+        "score": -60,
+        "date": "2026-05-04 22:43:06"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "8.64s",
+        "score": -67,
+        "date": "2026-05-04 22:46:15"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Typing",
+        "difficulty": "Hard",
+        "time": "7.99s",
+        "score": -63,
+        "date": "2026-05-04 23:01:21"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Reaction",
+        "difficulty": "Hard",
+        "time": "12.06s",
+        "score": 60,
+        "date": "2026-05-04 23:14:21"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Reaction",
+        "difficulty": "Hard",
+        "time": "12.02s",
+        "score": 90,
+        "date": "2026-05-04 23:17:10"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Reaction",
+        "difficulty": "Custom",
+        "time": "4.63s",
+        "score": -10,
+        "date": "2026-05-04 23:17:19"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Reaction",
+        "difficulty": "Easy",
+        "time": "4.83s",
+        "score": 20,
+        "date": "2026-05-04 23:18:11"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Reaction",
+        "difficulty": "Hard",
+        "time": "12.07s",
+        "score": -50,
+        "date": "2026-05-04 23:18:52"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Reaction",
+        "difficulty": "Hard",
+        "time": "12.01s",
+        "score": -50,
+        "date": "2026-05-04 23:19:12"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Reaction",
+        "difficulty": "Hard",
+        "time": "12.11s",
+        "score": 125,
+        "date": "2026-05-04 23:21:04"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Reaction",
+        "difficulty": "Hard",
+        "time": "12.11s",
+        "score": 120,
+        "date": "2026-05-04 23:24:58"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Reaction",
+        "difficulty": "Hard",
+        "time": "12.07s",
+        "score": 155,
+        "date": "2026-05-04 23:25:40"
+    },
+    {
+        "user": "Anonymous",
+        "game": "AimTrainer",
+        "difficulty": "Easy",
+        "time": "3.26s",
+        "score": 2,
+        "date": "2026-05-04 23:25:48"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Reaction",
+        "difficulty": "Hard",
+        "time": "2.74s",
+        "score": -10,
+        "date": "2026-05-04 23:26:09"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Memory",
+        "difficulty": "Hard",
+        "time": "10.5s",
+        "score": 27,
+        "date": "2026-05-04 23:26:40"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Memory",
+        "difficulty": "Hard",
+        "time": "8.38s",
+        "score": 33,
+        "date": "2026-05-04 23:26:57"
+    },
+    {
+        "user": "Anonymous",
+        "game": "DragDrop",
+        "difficulty": "Hard",
+        "time": "11.34s",
+        "score": 100,
+        "date": "2026-05-04 23:27:15"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Reaction",
+        "difficulty": "Hard",
+        "time": "12.01s",
+        "score": 60,
+        "date": "2026-05-04 23:30:29"
+    },
+    {
+        "user": "Player",
+        "game": "DragDrop",
+        "difficulty": "Custom",
+        "time": "30.46s",
+        "score": 295,
+        "date": "2026-05-05 00:03:53"
+    },
+    {
+        "user": "Player",
+        "game": "Memory",
+        "difficulty": "Custom",
+        "time": "12.4s",
+        "score": 32,
+        "date": "2026-05-05 00:04:16"
+    },
+    {
+        "user": "Anonymous",
+        "game": "AimTrainer",
+        "difficulty": "Custom",
+        "time": "6.33s",
+        "score": 5,
+        "date": "2026-05-05 00:04:28"
+    },
+    {
+        "user": "Anonymous",
+        "game": "Reaction",
+        "difficulty": "Custom",
+        "time": "62.05s",
+        "score": 185,
+        "date": "2026-05-05 00:05:36"
+    }
+]
