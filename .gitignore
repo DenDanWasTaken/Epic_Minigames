@@ -1,6 +1,7 @@
 .vscode/
 build/
 __pycache__/
+dist/
 *.spec
 autosave_history
 .gitignore
