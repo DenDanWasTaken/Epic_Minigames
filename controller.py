@@ -188,7 +188,7 @@ class ControllerApp:
             self.handle_score(-1)
         
         self.model.current_char_index += 1
-        self.model.render_typing_text()
+        self.model.configure_typing_text()
         
         if self.model.current_char_index >= len(self.model.target_text):
             self.end_game(self.model.translate("victory_msg"), "blue")
