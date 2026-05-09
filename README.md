@@ -1,2 +1,2 @@
-Run exes in dist folder. Minigame_Suite is the newest version.
-The other one is the older version.
+Run Minigame_Suite.exe in dist folder.
+Recommendation: put the game into a folder since it generates an autosave.
