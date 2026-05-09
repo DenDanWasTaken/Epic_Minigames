@@ -384,9 +384,9 @@ class CustomSettingsWindow(tk.Toplevel):
         self.color_var = tk.IntVar(value=current_config["mem_colors"])
         tk.Spinbox(mem_frame, from_=1, to=7, textvariable=self.color_var, width=10).pack()
 
-        ttk.Label(sort_frame, text=lang["unique_shapes_setting"]).pack()
+        ttk.Label(mem_frame, text=lang["unique_shapes_setting"]).pack()
         self.shape_var = tk.IntVar(value=current_config["mem_shapes"])
-        tk.Spinbox(sort_frame, from_=1, to=5, textvariable=self.shape_var, width=10).pack()
+        tk.Spinbox(mem_frame, from_=1, to=5, textvariable=self.shape_var, width=10).pack()
 
         # --- 5. Reaction Game Group ---
         react_frame = tk.LabelFrame(self.scrollable_frame, text=lang["reaction_game"], padx=10, pady=10, font=("Helvetica", 10, "bold"))
