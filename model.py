@@ -172,9 +172,9 @@ class ModelApp:
         
         # Game Settings
         self.difficulty_config = {
-            "Easy": {"time": 30, "items": 20, "baskets": 1, "target_size": 30, "memory_items": 3, "mem_colors": 2, "mem_shapes": 1, "stay_time": 2000, "reaction_wait": (1000, 3000), "word_count": 3},
-            "Medium": {"time": 20, "items": 15, "baskets": 2, "target_size": 20, "memory_items": 5, "mem_colors": 4, "mem_shapes": 2, "stay_time": 1500, "reaction_wait": (700, 2000), "word_count": 5},
-            "Hard": {"time": 10, "items": 10, "baskets": 3, "target_size": 10, "memory_items": 7, "mem_colors": 6, "mem_shapes": 3, "stay_time": 1000, "reaction_wait": (500, 1500), "word_count": 8},
+            "Easy": {"time": 30, "items": 20, "baskets": 1, "target_size": 30, "memory_items": 4, "mem_colors": 3, "mem_shapes": 2, "stay_time": 2000, "reaction_wait": (1000, 3000), "word_count": 3},
+            "Medium": {"time": 20, "items": 15, "baskets": 2, "target_size": 20, "memory_items": 6, "mem_colors": 4, "mem_shapes": 3, "stay_time": 1500, "reaction_wait": (700, 2000), "word_count": 5},
+            "Hard": {"time": 10, "items": 10, "baskets": 3, "target_size": 10, "memory_items": 8, "mem_colors": 6, "mem_shapes": 5, "stay_time": 1000, "reaction_wait": (500, 1500), "word_count": 8},
             "Custom": {"time": 60, "items": 10, "baskets": 2, "target_size": 25, "memory_items": 4, "mem_colors": 3, "mem_shapes": 2, "stay_time": 1500, "reaction_wait": (500, 2000), "word_count": 5}
         }
 
