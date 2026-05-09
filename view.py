@@ -557,10 +557,11 @@ class ViewApp(ttk.Frame):
         for game, widgets in self.goal_bars.items():
             current = progress_data.get(game, 0)
             maximum = goal_data.get(game, 100)
+            current = max(0, min(current, maximum))
 
             widgets["bar"].config(maximum=maximum, value=current)
 
-            text_value = lang["goal_completed"] if current >= maximum else f"{current}/{maximum}"
+            text_value = f"{current}/{maximum} " + lang["goal_completed"] if current >= maximum else f"{current}/{maximum}"
             widgets["label"].config(text=text_value)
 
     def prepare_game_layout(self):

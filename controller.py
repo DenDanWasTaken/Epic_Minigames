@@ -179,6 +179,9 @@ class ControllerApp:
         if not self.model.is_active or len(event.char) != 1: 
             return
         
+        if self.model.current_char_index >= len(self.model.target_text):
+            return
+        
         target_char = self.model.target_text[self.model.current_char_index]
         if event.char == target_char:
             self.model.typed_chars.append((event.char, "green"))
