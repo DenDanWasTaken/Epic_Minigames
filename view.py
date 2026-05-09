@@ -384,6 +384,10 @@ class CustomSettingsWindow(tk.Toplevel):
         self.color_var = tk.IntVar(value=current_config["mem_colors"])
         tk.Spinbox(mem_frame, from_=1, to=7, textvariable=self.color_var, width=10).pack()
 
+        ttk.Label(sort_frame, text=lang["unique_shapes_setting"]).pack()
+        self.shape_var = tk.IntVar(value=current_config["mem_shapes"])
+        tk.Spinbox(sort_frame, from_=1, to=5, textvariable=self.shape_var, width=10).pack()
+
         # --- 5. Reaction Game Group ---
         react_frame = tk.LabelFrame(self.scrollable_frame, text=lang["reaction_game"], padx=10, pady=10, font=("Helvetica", 10, "bold"))
         react_frame.pack(fill="x", padx=10, pady=5)
@@ -436,7 +440,7 @@ class CustomSettingsWindow(tk.Toplevel):
                 "memory_items": int(self.mem_var.get()),
                 "target_size": self.size_var.get(),
                 "mem_colors": self.color_var.get(),
-                "mem_shapes": 2, # Defaulting minor values
+                "mem_shapes": self.shape_var.get(), 
                 "items": self.items_var.get(),
                 "stay_time": self.stay_var.get(),
                 "word_count": self.word_var.get(),
