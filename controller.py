@@ -230,6 +230,7 @@ class ControllerApp:
         if not self.target: 
             return
         dx, dy = x - self.x, y - self.y
+        dx, dy = self.limit_drag(self.target, dx, dy)
         # Access the canvas inside the current_game instance
         self.current_game.canvas.move(self.target, dx, dy)
         self.x, self.y = x, y
@@ -264,6 +265,34 @@ class ControllerApp:
                 break 
                 
         self.target = None
+
+    def limit_drag(self, target, dx, dy):
+        canvas = self.current_game.canvas
+
+        bbox = canvas.bbox(target)
+        if not bbox:
+            return 0, 0
+
+        x1, y1, x2, y2 = bbox
+
+        width = canvas.winfo_width()
+        height = canvas.winfo_height()
+
+        # Left/right limits
+        if x1 + dx < 0:
+            dx = -x1
+
+        elif x2 + dx > width:
+            dx = width - x2
+
+        # Top/bottom limits
+        if y1 + dy < 0:
+            dy = -y1
+
+        elif y2 + dy > height:
+            dy = height - y2
+
+        return dx, dy
 
     def handle_score(self, points):
         self.model.update_score(points)
