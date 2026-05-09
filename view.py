@@ -321,6 +321,7 @@ class CustomSettingsWindow(tk.Toplevel):
         self.on_save = on_save
         self.transient(master)
         self.grab_set()
+        self.lang = lang
 
         # --- Scrollable Canvas Setup ---
         self.canvas = tk.Canvas(self, borderwidth=0, background="#f0f0f0")
@@ -375,7 +376,7 @@ class CustomSettingsWindow(tk.Toplevel):
         ttk.Label(mem_frame, text=lang["sequence_length_setting"]).pack()
         self.mem_var = tk.StringVar(value=str(current_config["memory_items"]))
         self.mem_var.trace_add("write", self.validate_entry)
-        self.mem_entry = ttk.Entry(mem_frame, textvariable=self.mem_var, width=10)
+        self.mem_entry = tk.Entry(mem_frame, textvariable=self.mem_var, width=10)
         self.mem_entry.pack()
         self.error_label = tk.Label(mem_frame, text="", fg="red", font=("Helvetica", 10))
         self.error_label.pack()
@@ -427,7 +428,7 @@ class CustomSettingsWindow(tk.Toplevel):
         is_valid = val.isdigit() and 1 <= int(val) <= 10
         self.mem_entry.config(bg="white" if is_valid else "#ffcccc")
         self.save_btn.config(state="normal" if is_valid else "disabled")
-        self.error_label.config(text="" if is_valid else "Enter 1-10")
+        self.error_label.config(text="" if is_valid else self.lang["enter"] + " 1-10")
 
     def handle_save(self, lang):
         try:
