@@ -99,6 +99,7 @@ class LanguageWindow(tk.Toplevel):
         super().__init__(master)
         self.title(lang["language_settings_title"])
         self.geometry("250x200")
+        self.resizable(False, False)
 
         container = ttk.Frame(self, padding=20)
         container.pack(expand=True)
@@ -131,6 +132,7 @@ class HistoryWindow(tk.Toplevel):
         self.lang = lang
         self.title(self.lang["history_window_title"])
         self.geometry("700x400")
+        self.resizable(False, False)
         
         self.transient(master)
         self.grab_set() # Makes it a proper custom dialog
@@ -318,6 +320,7 @@ class CustomSettingsWindow(tk.Toplevel):
         super().__init__(master)
         self.title(lang["customsettingswindow_title"])
         self.geometry("420x600")
+        self.resizable(False, False)
         self.on_save = on_save
         self.transient(master)
         self.grab_set()
@@ -335,7 +338,7 @@ class CustomSettingsWindow(tk.Toplevel):
 
         self.canvas_frame = self.canvas.create_window((0, 0), window=self.scrollable_frame, anchor="nw")
         self.canvas.configure(yscrollcommand=self.scrollbar.set)
-        self.bind_all("<MouseWheel>", self._on_mousewheel)
+        self.canvas.bind("<MouseWheel>", self._on_mousewheel)
 
         self.scrollbar.pack(side="right", fill="y")
         self.canvas.pack(side="left", fill="both", expand=True)
