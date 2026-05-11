@@ -486,8 +486,12 @@ class ModelApp:
     def delete_history(self, index):
         history = self.get_history()
         history.pop(index)
-        index = min(index, len(history)-1)
+        if history:
+            index = min(index, len(history)-1)
+        else:
+            index = 0
         self.set_history(history, index)
+        self.export_history("autosave_history.json")
 
     def sort_history(self, key, reverse=False):
         history = self.get_history()
